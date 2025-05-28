@@ -51,5 +51,5 @@ function mostraAlternativa() {
     mostraAlternativa();
 }
 Function mostraAlternativa();{
-    
+    //falta codigos aqui.
 }
