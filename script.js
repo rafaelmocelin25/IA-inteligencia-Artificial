@@ -6,8 +6,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 Const perguntas = [
     {
         enunciado: "pergunta1",
-        alternativas:
-        [
+        alternativas:[
             {
                 texto: "aternativa1",
                 Afirmacao: "Afirmacao1",
@@ -20,8 +19,20 @@ Const perguntas = [
     },
     {
             enunciado: "pergunta2",
-        alternativas:
-        [
+        alternativas:[
+            {
+                texto: "aternativa1",
+                Afirmacao: "Afirmacao1",
+            }
+            {
+                texto: "aternativa2",
+                Afirmacao: "Afirmacao2",
+            }
+        ]
+    },
+    {
+            enunciado: "pergunta3",
+        alternativas:[
             {
                 texto: "aternativa1",
                 Afirmacao: "Afirmacao1",
@@ -33,3 +44,12 @@ Const perguntas = [
         ]
     },
 ];
+
+function mostraAlternativa() {
+    perguntaAtual = perguntas[atual];
+    caixaPerguntas.textContent = perguntaAtual.enunciado
+    mostraAlternativa();
+}
+Function mostraAlternativa();{
+    
+}
