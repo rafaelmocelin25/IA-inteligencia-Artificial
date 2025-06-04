@@ -8,7 +8,7 @@ const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
     {
         enunciado: "Como podemos aproveitar eventos culturais como a Semana Farroupilha, com tradições como a costela de chão para promover o respeito à diversidade e a conscientização sobre problemas atuais, como os maus-tratos aos animais e a extinção de espécies?",
-        alternativas:[
+        alternativa:[
             {
                 texto: "aternativa1",
                 Afirmacao: "Afirmacao1",
@@ -21,7 +21,7 @@ const perguntas = [
     },
     {
             enunciado: "pergunta2",
-        alternativas:[
+        alternativa:[
             {
                 texto: "aternativa1",
                 Afirmacao: "Afirmacao1",
@@ -55,7 +55,7 @@ function mostraAlternativa() {
 }
 function mostraAlternativa();{
     for(const alternativa of perguntaAtual.alternativas){
-        const botaoAlternativa = createElement("button");
+        const botaoAlternativa = document.createElement("button");
         botaoAlternativa.textContent = alternativa.Texto;
         caixaPerguntas.appendChild(botaoAlternativa);
     }
