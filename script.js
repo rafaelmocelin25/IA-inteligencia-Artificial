@@ -1,62 +1,64 @@
-const { createElement } = require("react");
-
 const caixaPrincipal = document.querySelector(".caixa-principal");
 const caixaPerguntas = document.querySelector(".caixa-perguntas");
 const caixaAlternativas = document.querySelector(".caixa-alternativas");
-const caixaResultado = document.querySelector(".caixa-alternativas");
+const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
     {
-        enunciado: "Como podemos aproveitar eventos culturais como a Semana Farroupilha, com tradições como a costela de chão para promover o respeito à diversidade e a conscientização sobre problemas atuais, como os maus-tratos aos animais e a extinção de espécies?",
-        alternativa:[
+        enunciado: "Como resolver equação do segundo grau?",
+        alternativas: [
             {
-                texto: "aternativa1",
-                Afirmacao: "Afirmacao1",
-            }
+                texto: "aplicar a formula de Bhaskara",
+                afirmacao: "Aplicando a formula de Bhaskara voce pode resolver de forma mais demorada"
+               
+            },
             {
-                texto: "aternativa2",
-                Afirmacao: "Afirmacao2"
-            }
+                texto: "Soma e produto",
+                afirmacao: "usando soma e produto voce pode economizar tempo"
+            },
         ]
     },
     {
-            enunciado: "pergunta2",
-        alternativa:[
+        enunciado: "Pergunta2",
+        alternativas: [
             {
-                texto: "aternativa1",
-                Afirmacao: "Afirmacao1",
-            }
+                texto: "alternativa1",
+                afirmacao: "afirmacao1"
+            },
             {
-                texto: "aternativa2",
-                Afirmacao: "Afirmacao2",
-            }
+                texto: "alternativa2",
+                afirmacao: "afirmacao2"
+            },
         ]
     },
     {
-            enunciado: "pergunta3",
-        alternativas:[
+        enunciado: "Pergunta3",
+        alternativas: [
             {
-                texto: "aternativa1",
-                Afirmacao: "Afirmacao1",
-            }
+                texto: "alternativa1",
+                afirmacao: "afirmacao1"
+            },
             {
-                texto: "aternativa2",
-                Afirmacao: "Afirmacao2",
-            }
+                texto: "alternativa2",
+                afirmacao: "afirmacao2"
+            },
         ]
     },
 ];
+
 let atual = 0;
 let perguntaAtual;
-function mostraAlternativa() {
+
+function mostraPergunta(){
     perguntaAtual = perguntas[atual];
-    caixaPerguntas.textContent = perguntaAtual.enunciado
-    mostraAlternativa();
+    caixaPerguntas.textContent = perguntaAtual.enunciado;
+    mostraAlternativas();
 }
-function mostraAlternativa();{
+function mostraAlternativas(){
     for(const alternativa of perguntaAtual.alternativas){
         const botaoAlternativa = document.createElement("button");
-        botaoAlternativa.textContent = alternativa.Texto;
-        caixaPerguntas.appendChild(botaoAlternativa);
+        botaoAlternativa.textContent = alternativa.texto;
+        caixaAlternativas.appendChild(botaoAlternativa);
     }
 }
+mostraPergunta();
