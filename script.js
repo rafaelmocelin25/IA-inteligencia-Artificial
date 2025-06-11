@@ -5,42 +5,42 @@ const caixaResultado = document.querySelector(".caixa-resultado");
 const textoResultado = document.querySelector(".texto-resultado");
 const perguntas = [
     {
-        enunciado: "Como resolver equação do segundo grau?",
+        enunciado: "Qual o nome do alienígena que o Ben desbloqueia primeiro no Omnitrix?",
         alternativas: [
             {
-                texto: "aplicar a formula de Bhaskara",
-                afirmacao: "Aplicando a formula de Bhaskara voce pode resolver de forma mais demorada"
+                texto: "Quatro Braços",
+                afirmacao: "Pergunta1 errada"
                
             },
             {
-                texto: "Soma e produto",
-                afirmacao: "usando soma e produto voce pode economizar tempo"
+                texto: "Chama",
+                afirmacao: "Certo ochama é o primeiro aliem uado no Ben 10"
             },
         ]
     },
     {
-        enunciado: "Pergunta2",
+        enunciado: "Qual o nome da prima do Ben que o acompanha em suas aventuras?",
         alternativas: [
             {
-                texto: "alternativa1",
-                afirmacao: "afirmacao1"
+                texto: "Gwen",
+                afirmacao: "pergunta 2 correto"
             },
             {
-                texto: "alternativa2",
-                afirmacao: "afirmacao2"
+                texto: "Julie",
+                afirmacao: "pergunta2 errada"
             },
         ]
     },
     {
-        enunciado: "Pergunta3",
+        enunciado: "Qual o vilão principal da primeira temporada de Ben 10 Clássico?",
         alternativas: [
             {
-                texto: "alternativa1",
-                afirmacao: "afirmacao1"
+                texto: "Kevin 11",
+                afirmacao: "Kevin é um anti Heroi"
             },
             {
-                texto: "alternativa2",
-                afirmacao: "afirmacao2"
+                texto: "Vilgax",
+                afirmacao: "Vilgax é o vilão em todas as séries do ben 10"
             },
         ]
     },
