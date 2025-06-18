@@ -8,6 +8,7 @@
 
 body{
     background-image: url(ben10wallpaper08\ \(1\).jpg);
+    background-repeat: no-repeat;
     color: var(--cor-texto);
     display: flex;
     justify-content: center;
