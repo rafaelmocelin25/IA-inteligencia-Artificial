@@ -35,10 +35,10 @@ h1{
 
 :root{
     --cor-fundo: #01080E;
-    --cor-principal: #50007e ;
-    --cor-secundaria: #585b6b;
-    --cor-destaque: #24034b;
-    --cor-texto: #651bdb;
+    --cor-principal: rgb(1, 83, 26) ;
+    --cor-secundaria: #5d9217cc;
+    --cor-destaque: #1f3f0c;
+    --cor-texto: #2d5224;
 }
 
 button{
