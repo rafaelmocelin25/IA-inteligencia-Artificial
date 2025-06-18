@@ -44,6 +44,32 @@ const perguntas = [
             },
         ]
     },
+        {
+        enunciado: "Qual o vilão principal da primeira temporada de Ben 10 Clássico?",
+        alternativas: [
+            {
+                texto: "Kevin 11",
+                afirmacao: "Kevin é um anti Heroi"
+            },
+            {
+                texto: "Vilgax",
+                afirmacao: "Vilgax é o vilão em todas as séries do ben 10"
+            },
+        ]
+    },
+        {
+        enunciado: "Qual o vilão principal da primeira temporada de Ben 10 Clássico?",
+        alternativas: [
+            {
+                texto: "Kevin 11",
+                afirmacao: "Kevin é um anti Heroi"
+            },
+            {
+                texto: "Vilgax",
+                afirmacao: "Vilgax é o vilão em todas as séries do ben 10"
+            },
+        ]
+    },
 ];
 
 let atual = 0;
