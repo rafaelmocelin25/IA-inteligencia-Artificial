@@ -14,7 +14,7 @@ const perguntas = [
             },
             {
                 texto: "Chama",
-                afirmacao: "Certo ochama é o primeiro aliem uado no Ben 10"
+                afirmacao: "Certo o chama é o primeiro aliem uado no Ben 10"
             },
         ]
     },
