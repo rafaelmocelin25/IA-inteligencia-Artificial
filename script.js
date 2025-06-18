@@ -45,28 +45,28 @@ const perguntas = [
         ]
     },
         {
-        enunciado: "Qual o vilão principal da primeira temporada de Ben 10 Clássico?",
+        enunciado: "Qual é o nome do avô de Ben que já foi um Encanador?",
         alternativas: [
             {
-                texto: "Kevin 11",
-                afirmacao: "Kevin é um anti Heroi"
+                texto: "Vovô Max",
+                afirmacao: "perguntas 4 correto"
             },
             {
-                texto: "Vilgax",
-                afirmacao: "Vilgax é o vilão em todas as séries do ben 10"
+                texto: "Vovô Phil",
+                afirmacao: "pergunta 4 errada"
             },
         ]
     },
         {
-        enunciado: "Qual o vilão principal da primeira temporada de Ben 10 Clássico?",
+        enunciado: "A série Ben 10 Clássico estreou em qual década?",
         alternativas: [
             {
-                texto: "Kevin 11",
-                afirmacao: "Kevin é um anti Heroi"
+                texto: "Anos 1990",
+                afirmacao: "Pergunta 5 errado"
             },
             {
-                texto: "Vilgax",
-                afirmacao: "Vilgax é o vilão em todas as séries do ben 10"
+                texto: "Anos 2000",
+                afirmacao: "pergunta 5 Correto"
             },
         ]
     },
